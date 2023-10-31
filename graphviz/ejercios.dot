@@ -1,0 +1,15 @@
+digraph diagramaflujo{
+    inicio[shape=ellipse, label="Start"]
+    ingresar_num[shape=box, label="ingrese numero"]
+    i[shape=diamond, label="num%2==0"]
+    noPar[shape=box, label="No es par"]
+    par[shape=box, label="Es par"]
+    fin[shape=ellipse, label="END"]
+
+inicio->ingresar_num
+ingresar_num->i
+i->par[label="SI"]
+i->noPar[label="NO"]
+noPar->fin
+par->fin
+}

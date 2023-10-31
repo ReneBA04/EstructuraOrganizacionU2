@@ -1,0 +1,21 @@
+digraph arbol{
+    raiz[label="45", color="red"]
+    a[label="23", color="blue"]
+    b[label="65", color="blue"]
+    c[label="2", color="green"]
+    d[label="38", color="green"]
+    e[label="52", color="green"]
+    g[label="96", color="green"]
+    h[label="7", color="yellow"]
+    i[label="48", color="yellow"]
+
+    raiz->a
+    raiz->b
+    a->c
+    a->d
+    b->e
+    b->g
+    c->h
+    e->i
+
+}

@@ -1,0 +1,8 @@
+digraph holamundo{
+    inicio[shape=ellipse, label="inicio"]
+    m[shape=box, label="Hola mundo"]
+    fin[shape=ellipse, label="fin"]
+
+    inicio->m
+    m->fin
+}
